@@ -25,18 +25,18 @@ namespace KampIntro
 
             else
             {
-                Console.WriteLine("Bizim Üst Kata Bir Karı Taşındı Süt Süt!");
+                Console.WriteLine("Dolar Aynı Cano");
             }
 
             if (sistemeGirisYapmisMi == true)
             {
-                Console.WriteLine("Siktir Çık Lan Kasıyor");
+                Console.WriteLine("Giriş Yapıldı");
             
             }
 
             else if (sistemeGirisYapmisMi == false)
             {
-                Console.WriteLine("Girsene Lan Sisteme");
+                Console.WriteLine("Çıkış Yapıldı");
             }
 
             Console.WriteLine(kategoriEtiketi);

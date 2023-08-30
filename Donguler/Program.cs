@@ -11,14 +11,14 @@ namespace Donguler
         static void Main(string[] args)
         {
             //Array = Listeler / Diziler
-            string[] kurslar = new string[] {"Yazılımcı Sikme Kampı","Pompalamaya Başlangıç Kampı","Yarak Yalatma Kampı", "Piton Yağlama Kursu", "Noktalı Virgül Unutmama Kursu"};
+            string[] kurslar = new string[] {"Yazılımcı Geliştirme Kampı","C# Başlangıç Kampı","Python Kampı", "Java Kursu", "Noktalı Virgül Unutmama Kursu"};
             
             for (int i = 0; i<kurslar.Length; i++)
             {
                 Console.WriteLine(kurslar[i]);
             }
 
-            Console.WriteLine("For'un Sonu Foreach'in Başı Yarramın Başı");
+            Console.WriteLine("For'un Sonu Foreach'in Başı");
             //dizi temelli yapı dönderen döngü biçimi foreach
             foreach (string kurs in kurslar)
             {
@@ -27,7 +27,7 @@ namespace Donguler
 
             }
 
-            Console.WriteLine("Sayfa Bitti Amına Koyduğum!");
+            Console.WriteLine("Sayfa Bitti !");
         }
     }
 }
